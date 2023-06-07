@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("bg.jpg");
+    
+}
+.sidebar{
+    background-color: rgb(196, 150, 150);
+    width: 18vw;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 30px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 35px;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.sidebar h4{
+    padding-top: 17px;
+    font-size: 17px;
+
+}
+.main{
+    
+    width: 82vw;
+}
+.top{
+    background-color: rgb(193, 131, 235);
+    padding: 0px;
+    width: initial;
+    text-align: end;
+}
+.container1{
+    display: flex;
+}
+.info{
+    margin: auto;
+   height: 14px;
+   width: 95%;
+   padding: 16px;
+    background-color: rgb(187, 168, 108);
+    margin-top: 20px;
+
+}
+.info1{
+    padding: 16px;
+    height: 400px;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(193, 131, 235);
+    margin-top: 50px;
+}
+.sidebar1{
+    background-color:rgb(196, 150, 150);
+    margin-inline: 889px;
+    width: 17vw;
+    height: fit-content;
+}
+.sidebar1 nav{
+    padding: 40px;
+
+}
+.sidebar1 nav li{
+    list-style: none;
+    text-align: justify;
+    font-size: 17px;
+    padding-top: 8px;
+}
+.sidebar1Go {
+    transform: translate(-1393px, 0px);
+    position: absolute;
+}
+.menu{
+    margin-right: 100px;
+}
+.menu h3{
+    padding-left: 72px;
+    position:initial ;
+    cursor: pointer;
+}
+.user{
+    padding-right: 30px;
+    cursor: pointer;
+}
+.info a{
+    font-size: 25px;
+    text-decoration: none;
+}
+.Regs{
+    width: 400px;
+    margin: 30px auto 0px auto;
+}
+.logs h2{
+    text-align: center;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.logs{
+    background-color: rgba(0,0,0,5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255,0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0,0,0.3);
+    color:#fff;
+}
+form#user{
+    margin: 40px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+input#user{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rbga(0,0,0,0.3);
+}
+input#Submits{
+    width: 170px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(17, 19, 139, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255,0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0,0,0.3);
+}
+input#Submit{
+    width: 170px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: rgba(17, 19, 139, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255,0.3);
+    box-shadow: 1px 1px 5px rgba(0, 0,0,0.3);
+}
+.table-box{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #000000;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+}
+.table-col{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #1f1a1a;
+    vertical-align: middle;
+}
+.head{
+    background: rgb(187, 168, 108);
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.info1 table-boxs{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #000000;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+}
+.table-col1{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #1f1a1a;
+    vertical-align: middle;
+}
+.info1 table-boxs {
+    background: rgb(30, 8, 34);
+    box-shadow: none;
+    color: #d44747;
+    font-weight: 600;
+}

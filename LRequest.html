@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+    <link rel="stylesheet" href="dash.css" class="css">
+</head>
+<body>
+    <div class="container1">
+    <div class="sidebar">
+        <h4>
+        | Laundry Management System |
+        <h4>
+        <nav>
+            <ul>
+                <li><a href="Dashboard.html">Dashboard</a></li>
+                <hr>
+                <li><a href="LRequest.html">Laundry Request</a></li>
+                <hr>
+                <li><a href="LStatus.html">Request Status</a></li>
+                <hr>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+    <div class="top">
+    <div class="menu">
+            <img class="user" src="user.png" alt="" width="30" >
+            <h3 class="user1">My Profile</h3>
+        </div>
+    
+    </div>
+    <div class="sidebar1 sidebar1Go">
+        <nav>
+            <ul>
+                <li><a href="Chpass.php"> Change Password</a></li>
+                <li><a href="Registration.php">Update Profile</a></li>
+                <li><a href="login.php">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class=info>
+    <h3><a href = "Dashboard.html">Laundry Management System</a> / Laundry Request</h3>
+    <div class=info1>
+        <div class="RequestForm">
+      <div class="Req">
+<div class="New">
+    <h2>Fill the details for your services</h2>
+    <form action="Request_Form.php" id="user" method="post">
+    <label>Email: </label>
+    <br>
+    <input type="email" name="Email" id="user" placeholder="Enter your eMail">
+    <br><br>  
+    <label>Service: </label>
+    <br>
+    <input type="text" name="Service" id="user" placeholder="Enter your Services">
+    <br><br>   
+    <label>Quantity: </label>
+    <br>
+    <input type="number" name="Quantity" id="user" placeholder="Enter Your cloths quantity">
+    <br><br>
+    <label>Pickup: </label>
+    <br>
+    <input type="Date" name="Pickup" id="user" placeholder=" ">
+    <br><br>
+    <input type="Submit" value="Submit" name="Submit" id="Submit">
+
+    </form>
+    
+</div>
+</div>
+
+    </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
